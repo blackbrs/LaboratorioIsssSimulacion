@@ -2,9 +2,9 @@ C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacio
 C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\bin\Debug\LaboratorioIsssSimulacion.exe
 C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\bin\Debug\LaboratorioIsssSimulacion.pdb
 C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\obj\Debug\LaboratorioIsssSimulacion.csprojAssemblyReference.cache
-C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\obj\Debug\LaboratorioIsssSimulacion.Form1.resources
 C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\obj\Debug\LaboratorioIsssSimulacion.Properties.Resources.resources
 C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\obj\Debug\LaboratorioIsssSimulacion.csproj.GenerateResource.cache
 C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\obj\Debug\LaboratorioIsssSimulacion.csproj.CoreCompileInputs.cache
 C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\obj\Debug\LaboratorioIsssSimulacion.exe
 C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\obj\Debug\LaboratorioIsssSimulacion.pdb
+C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\obj\Debug\LaboratorioIsssSimulacion.formularioPrincipal.resources
