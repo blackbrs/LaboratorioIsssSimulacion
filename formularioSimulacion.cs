@@ -16,5 +16,10 @@ namespace LaboratorioIsssSimulacion
         {
             InitializeComponent();
         }
+
+        private void FormularioSimulacion_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

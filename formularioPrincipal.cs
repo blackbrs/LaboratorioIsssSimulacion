@@ -27,5 +27,15 @@ namespace LaboratorioIsssSimulacion
             formularioSimulacion simulacion = new formularioSimulacion();
             simulacion.Show();
         }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

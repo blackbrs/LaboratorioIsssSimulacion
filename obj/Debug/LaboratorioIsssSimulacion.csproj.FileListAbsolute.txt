@@ -8,3 +8,4 @@ C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacio
 C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\obj\Debug\LaboratorioIsssSimulacion.exe
 C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\obj\Debug\LaboratorioIsssSimulacion.pdb
 C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\obj\Debug\LaboratorioIsssSimulacion.formularioPrincipal.resources
+C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\obj\Debug\LaboratorioIsssSimulacion.formularioSimulacion.resources
