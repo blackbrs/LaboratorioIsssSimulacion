@@ -51,6 +51,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Servidor.cs" />
+    <Compile Include="Clases\FormatoDeHora.cs" />
     <Compile Include="Clases\GeneradorDatosAleatorios.cs" />
     <Compile Include="Clases\Paciente.cs" />
     <Compile Include="formularioSimulacion.cs">
