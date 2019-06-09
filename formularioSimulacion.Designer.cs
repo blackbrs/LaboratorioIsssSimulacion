@@ -54,6 +54,13 @@
             this.timerStepSimulacion = new System.Windows.Forms.Timer(this.components);
             this.txtEventos = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
+            this.contPaciente = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.gridServidoresDisponibles)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,7 +72,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(700, 31);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Simulacion Del Laboratorio Clinico del Policlinico Zacamil";
+            this.label1.Text = "Simulación Del Laboratorio Clínico del Policlínico Zacamil";
             // 
             // label2
             // 
@@ -94,12 +101,12 @@
             this.gridServidoresDisponibles.Location = new System.Drawing.Point(384, 68);
             this.gridServidoresDisponibles.Name = "gridServidoresDisponibles";
             this.gridServidoresDisponibles.ReadOnly = true;
-            this.gridServidoresDisponibles.Size = new System.Drawing.Size(585, 150);
+            this.gridServidoresDisponibles.Size = new System.Drawing.Size(585, 202);
             this.gridServidoresDisponibles.TabIndex = 3;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(13, 463);
+            this.button1.Location = new System.Drawing.Point(26, 666);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(122, 23);
             this.button1.TabIndex = 4;
@@ -122,18 +129,18 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(12, 152);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 13);
+            this.label4.Size = new System.Drawing.Size(42, 13);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Shape:";
+            this.label4.Text = "Forma :";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(207, 152);
+            this.label5.Location = new System.Drawing.Point(186, 155);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(33, 13);
+            this.label5.Size = new System.Drawing.Size(61, 13);
             this.label5.TabIndex = 7;
-            this.label5.Text = "Rate:";
+            this.label5.Text = "Proporción:";
             // 
             // TellShape
             // 
@@ -203,7 +210,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(63, 13);
             this.label11.TabIndex = 15;
-            this.label11.Text = "Desviacion:";
+            this.label11.Text = "Desviación:";
             // 
             // txtMedia
             // 
@@ -233,7 +240,7 @@
             // 
             this.lblMC.AutoSize = true;
             this.lblMC.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMC.Location = new System.Drawing.Point(12, 305);
+            this.lblMC.Location = new System.Drawing.Point(12, 315);
             this.lblMC.Name = "lblMC";
             this.lblMC.Size = new System.Drawing.Size(100, 22);
             this.lblMC.TabIndex = 19;
@@ -253,7 +260,7 @@
             // 
             this.lblSiguientePaciente.AutoSize = true;
             this.lblSiguientePaciente.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSiguientePaciente.Location = new System.Drawing.Point(206, 305);
+            this.lblSiguientePaciente.Location = new System.Drawing.Point(206, 315);
             this.lblSiguientePaciente.Name = "lblSiguientePaciente";
             this.lblSiguientePaciente.Size = new System.Drawing.Size(100, 22);
             this.lblSiguientePaciente.TabIndex = 21;
@@ -266,27 +273,105 @@
             // 
             // txtEventos
             // 
-            this.txtEventos.Location = new System.Drawing.Point(384, 245);
+            this.txtEventos.Location = new System.Drawing.Point(26, 367);
             this.txtEventos.Multiline = true;
             this.txtEventos.Name = "txtEventos";
-            this.txtEventos.Size = new System.Drawing.Size(585, 225);
+            this.txtEventos.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtEventos.Size = new System.Drawing.Size(924, 293);
             this.txtEventos.TabIndex = 22;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(652, 226);
+            this.label13.Location = new System.Drawing.Point(395, 338);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(138, 16);
             this.label13.TabIndex = 23;
             this.label13.Text = "Diario De Eventos.";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(161, 666);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(145, 23);
+            this.button2.TabIndex = 24;
+            this.button2.Text = "Terminar Simulacion";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(312, 666);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(156, 23);
+            this.button3.TabIndex = 25;
+            this.button3.Text = "Limpiar Diario De Eventos";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(11, 289);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(100, 22);
+            this.label15.TabIndex = 26;
+            this.label15.Text = "*HH:MM:SS";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(206, 289);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(100, 22);
+            this.label16.TabIndex = 27;
+            this.label16.Text = "*HH:MM:SS";
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(486, 666);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(196, 23);
+            this.button4.TabIndex = 28;
+            this.button4.Text = "Guardar en un txt el diario de eventos";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.Button4_Click);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(608, 273);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(145, 15);
+            this.label17.TabIndex = 29;
+            this.label17.Text = "Pacientes Atendidos :";
+            // 
+            // contPaciente
+            // 
+            this.contPaciente.AutoSize = true;
+            this.contPaciente.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contPaciente.Location = new System.Drawing.Point(662, 315);
+            this.contPaciente.Name = "contPaciente";
+            this.contPaciente.Size = new System.Drawing.Size(20, 22);
+            this.contPaciente.TabIndex = 30;
+            this.contPaciente.Text = "0";
+            // 
             // formularioSimulacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(981, 498);
+            this.ClientSize = new System.Drawing.Size(981, 701);
+            this.Controls.Add(this.contPaciente);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.txtEventos);
             this.Controls.Add(this.lblSiguientePaciente);
@@ -347,5 +432,12 @@
         private System.Windows.Forms.Timer timerStepSimulacion;
         private System.Windows.Forms.TextBox txtEventos;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label contPaciente;
     }
 }

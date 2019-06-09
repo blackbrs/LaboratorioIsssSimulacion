@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace LaboratorioIsssSimulacion
 {
@@ -29,7 +30,7 @@ namespace LaboratorioIsssSimulacion
         int MC = 0;
         int MENOR_MOMENTO_SIGUIENTE;
         int numero_servidores;
-
+        int contador = 0;
         public formularioSimulacion()
         {
             InitializeComponent();
@@ -51,9 +52,9 @@ namespace LaboratorioIsssSimulacion
         {
             NumeroServidores.Text = "3";
             TellShape.Text        = "1.54785";
-            TellRate.Text         = "6.3939";
-            txtMedia.Text = "5.3404";
-            txtDesviacion.Text = "1.0345";
+            TellRate.Text         = "0.1715263057";
+            txtMedia.Text         = "5.3404";
+            txtDesviacion.Text    = "1.0345";
         }
 
       
@@ -100,6 +101,9 @@ namespace LaboratorioIsssSimulacion
                 double rate = Double.Parse(TellRate.Text);
                 generadorAleatorio.configTELL(shape, rate);
 
+                double[] probabilidades = { Double.Parse(TellRate.Text) };
+                generadorAleatorio.configExtraccion(probabilidades, probabilidades.Length);
+
                 double[] medias = { Double.Parse(txtMedia.Text)};
                 generadorAleatorio.configTSERVMedia(medias, medias.Length);
 
@@ -127,7 +131,7 @@ namespace LaboratorioIsssSimulacion
 
         private void registrarEvento(string texto)
         {
-            this.txtEventos.Text = this.txtEventos.Text + texto + "\r\n";
+            this.txtEventos.Text = this.txtEventos.Text + texto;
         }
 
         private bool hayPacientesEnCola()
@@ -167,13 +171,24 @@ namespace LaboratorioIsssSimulacion
 
         private void stepSimulacion() {
 
+            NumeroServidores.Enabled = false;
+            TellRate.Enabled = false;
+            TellShape.Enabled = false;
+            txtDesviacion.Enabled = false;
+            txtMedia.Enabled = false;
+            txtEventos.Enabled = false;
+            
+            
+            
             // Paso 1: avanzar MC al menor momento, reflejar el cambio
             this.MC = this.MENOR_MOMENTO_SIGUIENTE;
             lblMC.Text = FormatoDeHora.obtenerHora(this.MC);
-
+          
             // Paso 2: verificamos si un cliente ha llegado a la cola
             if (this.MC == siguiente_Paciente.TDeLlegada)
             {
+                this.contador++;
+                contPaciente.Text = this.contador.ToString();
                 // De ser asi, agregamos el cliente a la cola, y le calculamos la hora 
                 // En que este cliente ha llegado
                 this.siguiente_Paciente.TLlegadaCola = this.MC;
@@ -185,10 +200,15 @@ namespace LaboratorioIsssSimulacion
                 lblSiguientePaciente.Text = FormatoDeHora.obtenerHora(c.TDeLlegada);
                 this.siguiente_Paciente = c;
 
-                // Registramos evento
-                this.registrarEvento("MC = " + FormatoDeHora.obtenerHora(this.MC) + " Ha llegado un nuevo Paciente a la cola del laboratorio");
-            }
 
+
+                // Registramos evento
+                
+                this.registrarEvento("********************************************************************************************************************************************************************************************************************************\r\n");
+                this.registrarEvento("MC = " + FormatoDeHora.obtenerHora(this.MC) + " Ha llegado un nuevo Paciente a la cola del laboratorio\r\n");
+               
+            }
+            
             // Paso 3: Verificamos cuales son los servidores cuya fecha de fin de servicio es igual a MC
             // y ejecutamos passo respectivos
             for (int i = 0; i < this.servidores.Count; i++)
@@ -197,6 +217,7 @@ namespace LaboratorioIsssSimulacion
 
                 if (s.TFinServicio == this.MC)
                 {
+                    
                     Paciente c = s.terminarServicio();
 
                     // Empezamos a realizar calculos de tiempo en cola, tiempo en sistema
@@ -207,9 +228,13 @@ namespace LaboratorioIsssSimulacion
                     this.t_en_cola.Add(tiempo_en_cola_min);
                     this.t_en_sistema.Add(tiempo_en_cola_min + c.TDeServicioMin);
                     this.t_entre_llegadas.Add(c.TEntreLlegadaMin);
-                   // this.t_servicio[c.OPCION_ELEGIDA - 1].Add(c.TIEMPO_DE_SERVICIO_MIN);
-                    this.registrarEvento("MC = " + FormatoDeHora.obtenerHora(this.MC) + " SERVIDOR=" + s.NumServidor + " HA TERMINADO DE EXTRAER LA MUESTRA DE SANGRE");
+                    // this.t_servicio[c.OPCION_ELEGIDA - 1].Add(c.TIEMPO_DE_SERVICIO_MIN);
+                 
+                    this.registrarEvento("MC = " + FormatoDeHora.obtenerHora(this.MC) + " Especialista= " + s.NumServidor + " Ha terminado la extracion de sangre .\r\n");
+                    this.registrarEvento("********************************************************************************************************************************************************************************************************************************\r\n");
+                    
                 }
+                
             }
 
             // Paso 4: Si hay nuevos clientes y servidores disponibles, ejecutamos acciones respectivas
@@ -230,7 +255,8 @@ namespace LaboratorioIsssSimulacion
                 this.Pacientes_en_cola.RemoveAt(0);
 
                 // Registrando accion respectiva
-                this.registrarEvento("MC = " + FormatoDeHora.obtenerHora(this.MC) + " PACIENTE HA SALIDO DE LA COLA Y HA EMPEZADO A SER ATENDIDO POR EL ESPECIALISTA = " + s.NumServidor.ToString() + " TIEMPO DE FIN DE SERVICIO" + FormatoDeHora.obtenerHora(c.TFinServicio));
+                this.registrarEvento("MC = " + FormatoDeHora.obtenerHora(this.MC) + "  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =" + s.NumServidor.ToString() + " Tiempo de fin de la toma de la muestra: " + FormatoDeHora.obtenerHora(c.TFinServicio)+ "\r\n");
+               
             }
 
             // Paso 5; avanzamos MC al menor momento esperado
@@ -251,15 +277,55 @@ namespace LaboratorioIsssSimulacion
             // Reflejar el estado de los servidores
             for (int i = 0; i < gridServidoresDisponibles.Rows.Count; i++)
             {
-               // gridServidoresDisponibles.Rows[i].Cells[1].Value = this.servidores[i].OPCION_ATENDIENDO.ToString();
+             
                 gridServidoresDisponibles.Rows[i].Cells[1].Value = this.servidores[i].TFinServicioStr;
                 gridServidoresDisponibles.Rows[i].Cells[2].Value = this.servidores[i].EstServidor;
+              
             }
+            
         }
 
         private void TimerStepSimulacion_Tick(object sender, EventArgs e)
         {
            this.stepSimulacion();
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            timerStepSimulacion.Stop();
+            gridServidoresDisponibles.Rows.Clear();
+            NumeroServidores.Enabled = true;
+            TellRate.Enabled = true;
+            TellShape.Enabled = true;
+            txtDesviacion.Enabled = true;
+            txtMedia.Enabled = true;
+            txtEventos.Enabled = true;
+            
+
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            this.txtEventos.Clear();
+            contPaciente.Text = "0";
+            this.contador = 0;
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            string mensaje = "";
+            String numero = "";
+            mensaje = this.txtEventos.Text;
+            numero = this.contPaciente.Text;
+            StreamWriter sw = new StreamWriter("Test.txt");
+            sw.WriteLine(mensaje);
+            sw.WriteLine("------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
+            sw.WriteLine("------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
+            sw.WriteLine("                                                        PACIENTES ATENDIDOS EN EL LABORATORIO CLINICO DURANTE LA SIMULACION                                             ");
+            sw.WriteLine("                                                                                "+numero+"                                                                                ");
+            sw.WriteLine("------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
+            sw.WriteLine("------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
+            sw.Close();
         }
     }
 }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MathNet.Numerics;
+using System.IO;
 
 namespace LaboratorioIsssSimulacion.Clases
 {
@@ -11,7 +12,7 @@ namespace LaboratorioIsssSimulacion.Clases
     {
         private Random rand = new Random();
         private double tellShape = 1.3;
-        private double tellRate = 0.1317523057;
+        private double tellRate = 0.1715263057;
         private double tellC;
         private double tellA = 0.0;
         private double tellB = 45.0;
@@ -43,7 +44,7 @@ namespace LaboratorioIsssSimulacion.Clases
             this.tellC = max;
             System.Console.WriteLine("El valor maximo que ha sido encontrado por el sistema de simulacion ha sido el siguiente: " + max.ToString());
         }
-        public void configOpc(double[] p, int num_opciones)
+        public void configExtraccion(double[] p, int num_opciones)
         {
             this.pdfOpcion = new double[num_opciones];
             this.cdfOpcion = new double[num_opciones];
@@ -63,21 +64,21 @@ namespace LaboratorioIsssSimulacion.Clases
             }
         }
 
-        public void configTSERVMedia(double[] media, int num_opciones)
+        public void configTSERVMedia(double[] media, int num_extraccion)
         {
-            this.mediaSer = new double[num_opciones];
+            this.mediaSer = new double[num_extraccion];
 
-            for (int i = 0; i < num_opciones; i++)
+            for (int i = 0; i < num_extraccion; i++)
             {
                 this.mediaSer[i] = media[i];
             }
         }
 
-        public void configTSERVDesviacion(double[] desviacion, int num_opciones)
+        public void configTSERVDesviacion(double[] desviacion, int num_Extraccion)
         {
-            this.desviacionserv = new double[num_opciones];
+            this.desviacionserv = new double[num_Extraccion];
 
-            for (int i = 0; i < num_opciones; i++)
+            for (int i = 0; i < num_Extraccion; i++)
             {
                 this.desviacionserv[i] = desviacion[i];
             }
@@ -100,7 +101,7 @@ namespace LaboratorioIsssSimulacion.Clases
             return val;
         }
 
-        public int generarOPC()
+        public int generarIncidenciaExtraccion()
         {
             double r = rand.NextDouble();
             int val = -1;
@@ -125,10 +126,10 @@ namespace LaboratorioIsssSimulacion.Clases
         public double generarTSERV(int opcion)
         {
             double val = -1.0;
-
+            
             int k = 30;
-            double miu = this.mediaSer[opcion ];//OJO
-            double sigma = this.desviacionserv[opcion ];// OJO
+            double miu = this.mediaSer[opcion - 1];
+            double sigma = this.desviacionserv[opcion - 1];
             double suma = 0.0;
 
             for (int i = 1; i <= k; i++)
@@ -142,9 +143,10 @@ namespace LaboratorioIsssSimulacion.Clases
 
         public Paciente generarPaciente() {
             Paciente paci = new Paciente();
-
+            paci.opcElegida = this.generarIncidenciaExtraccion();
             paci.TEntreLlegadaMin = this.generarTELL();
-            paci.TEntreLlegadaSec = (int)Math.Floor(paci.TEntreLlegadaMin * ((double)60.0));           
+            paci.TEntreLlegadaSec = (int)Math.Floor(paci.TEntreLlegadaMin * ((double)60.0));
+            paci.TDeServicioMin = this.generarTSERV(paci.opcElegida);
             paci.TDeServicioSec = (int)Math.Floor(paci.TDeServicioMin * ((double)60.0));
             return paci;
         }
