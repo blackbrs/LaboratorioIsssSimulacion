@@ -127,8 +127,8 @@ namespace LaboratorioIsssSimulacion.Clases
             double val = -1.0;
 
             int k = 30;
-            double miu = this.mediaSer[opcion - 1];
-            double sigma = this.desviacionserv[opcion - 1];
+            double miu = this.mediaSer[opcion ];//OJO
+            double sigma = this.desviacionserv[opcion ];// OJO
             double suma = 0.0;
 
             for (int i = 1; i <= k; i++)
@@ -143,10 +143,8 @@ namespace LaboratorioIsssSimulacion.Clases
         public Paciente generarPaciente() {
             Paciente paci = new Paciente();
 
-            paci.opcElegida = this.generarOPC();
             paci.TEntreLlegadaMin = this.generarTELL();
-            paci.TEntreLlegadaSec = (int)Math.Floor(paci.TEntreLlegadaMin * ((double)60.0));
-            paci.TDeServicioMin = this.generarTSERV(paci.opcElegida);
+            paci.TEntreLlegadaSec = (int)Math.Floor(paci.TEntreLlegadaMin * ((double)60.0));           
             paci.TDeServicioSec = (int)Math.Floor(paci.TDeServicioMin * ((double)60.0));
             return paci;
         }

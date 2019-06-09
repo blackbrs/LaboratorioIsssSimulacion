@@ -17,6 +17,9 @@ namespace LaboratorioIsssSimulacion.Clases
         public double TDeServicioMin;
         public int TDeServicioSec;
 
+        public int TLlegadaCola;
+        public int TSalidaCola;
+
         public int TInicioServicio;
         public int TFinServicio;
 
