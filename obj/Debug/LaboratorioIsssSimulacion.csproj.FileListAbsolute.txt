@@ -9,3 +9,6 @@ C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacio
 C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\obj\Debug\LaboratorioIsssSimulacion.pdb
 C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\obj\Debug\LaboratorioIsssSimulacion.formularioPrincipal.resources
 C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\obj\Debug\LaboratorioIsssSimulacion.formularioSimulacion.resources
+C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\bin\Debug\MathNet.Numerics.dll
+C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\bin\Debug\MathNet.Numerics.xml
+C:\Users\guill\Desktop\Programa Simulacion TDS-TOMCATDS\LaboratorioIsssSimulacion\obj\Debug\LaboratorioIsssSimulacion.csproj.CopyComplete
