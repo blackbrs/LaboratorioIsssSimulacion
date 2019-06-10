@@ -1,57 +1,472 @@
 ********************************************************************************************************************************************************************************************************************************
-MC = 000:13:07 Ha llegado un nuevo Paciente a la cola del laboratorio
-MC = 000:13:07  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 000:18:44
-MC = 000:18:44 Especialista= 1 Ha terminado la extracion de sangre .
+MC = 000:03:06 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 000:03:06  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 000:07:51
+MC = 000:07:51 Especialista= 1 Ha terminado la extracion de sangre .
 ********************************************************************************************************************************************************************************************************************************
 ********************************************************************************************************************************************************************************************************************************
-MC = 000:20:34 Ha llegado un nuevo Paciente a la cola del laboratorio
-MC = 000:20:34  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 000:27:03
-********************************************************************************************************************************************************************************************************************************
-MC = 000:24:13 Ha llegado un nuevo Paciente a la cola del laboratorio
-MC = 000:24:13  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 000:27:52
-MC = 000:27:03 Especialista= 1 Ha terminado la extracion de sangre .
-********************************************************************************************************************************************************************************************************************************
-MC = 000:27:52 Especialista= 2 Ha terminado la extracion de sangre .
+MC = 000:15:04 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 000:15:04  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 000:20:42
+MC = 000:20:42 Especialista= 1 Ha terminado la extracion de sangre .
 ********************************************************************************************************************************************************************************************************************************
 ********************************************************************************************************************************************************************************************************************************
-MC = 000:31:07 Ha llegado un nuevo Paciente a la cola del laboratorio
-MC = 000:31:07  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 000:35:24
-MC = 000:35:24 Especialista= 1 Ha terminado la extracion de sangre .
+MC = 000:31:09 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 000:31:09  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 000:37:46
+MC = 000:37:46 Especialista= 1 Ha terminado la extracion de sangre .
 ********************************************************************************************************************************************************************************************************************************
 ********************************************************************************************************************************************************************************************************************************
-MC = 001:00:07 Ha llegado un nuevo Paciente a la cola del laboratorio
-MC = 001:00:07  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 001:05:21
-MC = 001:05:21 Especialista= 1 Ha terminado la extracion de sangre .
+MC = 000:39:08 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 000:39:08  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 000:44:53
+********************************************************************************************************************************************************************************************************************************
+MC = 000:39:39 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 000:39:39  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 000:45:15
+MC = 000:44:53 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 000:45:15 Especialista= 2 Ha terminado la extracion de sangre .
 ********************************************************************************************************************************************************************************************************************************
 ********************************************************************************************************************************************************************************************************************************
-MC = 001:05:24 Ha llegado un nuevo Paciente a la cola del laboratorio
-MC = 001:05:24  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 001:11:12
+MC = 001:05:09 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 001:05:09  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 001:11:29
 ********************************************************************************************************************************************************************************************************************************
-MC = 001:07:49 Ha llegado un nuevo Paciente a la cola del laboratorio
-MC = 001:07:49  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 001:13:48
-********************************************************************************************************************************************************************************************************************************
-MC = 001:09:38 Ha llegado un nuevo Paciente a la cola del laboratorio
-MC = 001:09:38  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =3 Tiempo de fin de la toma de la muestra: 001:15:04
-MC = 001:11:12 Especialista= 1 Ha terminado la extracion de sangre .
+MC = 001:09:30 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 001:09:30  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 001:15:44
+MC = 001:11:29 Especialista= 1 Ha terminado la extracion de sangre .
 ********************************************************************************************************************************************************************************************************************************
 ********************************************************************************************************************************************************************************************************************************
-MC = 001:12:08 Ha llegado un nuevo Paciente a la cola del laboratorio
-MC = 001:12:08  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 001:18:37
-MC = 001:13:48 Especialista= 2 Ha terminado la extracion de sangre .
-********************************************************************************************************************************************************************************************************************************
-MC = 001:15:04 Especialista= 3 Ha terminado la extracion de sangre .
-********************************************************************************************************************************************************************************************************************************
-MC = 001:18:37 Especialista= 1 Ha terminado la extracion de sangre .
+MC = 001:12:34 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 001:12:34  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 001:18:42
+MC = 001:15:44 Especialista= 2 Ha terminado la extracion de sangre .
 ********************************************************************************************************************************************************************************************************************************
 ********************************************************************************************************************************************************************************************************************************
-MC = 001:23:38 Ha llegado un nuevo Paciente a la cola del laboratorio
-MC = 001:23:38  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 001:28:58
-MC = 001:28:58 Especialista= 1 Ha terminado la extracion de sangre .
+MC = 001:15:58 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 001:15:58  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 001:23:07
+MC = 001:18:42 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 001:19:17 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 001:19:17  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 001:24:36
+MC = 001:23:07 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 001:23:17 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 001:23:17  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 001:30:01
+MC = 001:24:36 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 001:30:01 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 001:44:16 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 001:44:16  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 001:50:31
+MC = 001:50:31 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 001:52:28 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 001:52:28  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 001:58:10
+MC = 001:58:10 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 002:25:03 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 002:25:03  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 002:31:47
+MC = 002:31:47 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 002:47:59 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 002:47:59  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 002:53:42
+MC = 002:53:42 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 003:01:51 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 003:01:51  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 003:06:09
+********************************************************************************************************************************************************************************************************************************
+MC = 003:03:00 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 003:03:00  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 003:08:55
+MC = 003:06:09 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 003:06:20 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 003:06:20  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 003:09:33
+MC = 003:08:55 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 003:09:33 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 003:13:02 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 003:13:02  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 003:19:45
+MC = 003:19:45 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 003:24:51 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 003:24:51  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 003:30:25
+********************************************************************************************************************************************************************************************************************************
+MC = 003:28:38 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 003:28:38  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 003:33:26
+MC = 003:30:25 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 003:31:12 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 003:31:12  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 003:35:20
+MC = 003:33:26 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 003:35:20 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 003:37:15 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 003:37:15  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 003:43:19
+********************************************************************************************************************************************************************************************************************************
+MC = 003:39:24 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 003:39:24  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 003:45:31
+MC = 003:43:19 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 003:43:48 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 003:43:48  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 003:49:54
+MC = 003:45:31 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 003:49:54 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 003:51:28 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 003:51:28  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 003:57:44
+MC = 003:57:44 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 004:22:56 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 004:22:56  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 004:27:54
+MC = 004:27:54 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 004:36:02 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 004:36:02  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 004:43:02
+********************************************************************************************************************************************************************************************************************************
+MC = 004:38:15 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 004:38:15  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 004:41:53
+********************************************************************************************************************************************************************************************************************************
+MC = 004:38:51 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 004:38:51  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =3 Tiempo de fin de la toma de la muestra: 004:44:19
+MC = 004:41:53 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 004:43:02 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 004:44:19 Especialista= 3 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 004:52:05 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 004:52:05  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 004:55:45
+********************************************************************************************************************************************************************************************************************************
+MC = 004:54:33 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 004:54:33  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 004:58:52
+MC = 004:55:45 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 004:58:52 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 004:59:33 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 004:59:33  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 005:03:58
+********************************************************************************************************************************************************************************************************************************
+MC = 005:03:13 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 005:03:13  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 005:09:07
+MC = 005:03:58 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 005:09:07 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 005:18:51 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 005:18:51  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 005:24:23
+MC = 005:24:23 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 005:30:05 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 005:30:05  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 005:35:27
+MC = 005:35:27 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 005:36:00 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 005:36:00  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 005:39:14
+MC = 005:39:14 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 005:43:51 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 005:43:51  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 005:48:57
+MC = 005:48:57 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 005:50:52 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 005:50:52  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 005:55:39
+MC = 005:55:39 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 005:59:53 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 005:59:53  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 006:06:20
+MC = 006:06:20 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 006:16:04 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 006:16:04  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 006:23:00
+********************************************************************************************************************************************************************************************************************************
+MC = 006:18:44 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 006:18:44  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 006:24:41
+********************************************************************************************************************************************************************************************************************************
+MC = 006:20:33 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 006:20:33  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =3 Tiempo de fin de la toma de la muestra: 006:27:07
+MC = 006:23:00 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 006:24:41 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 006:27:07 Especialista= 3 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 006:28:44 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 006:28:44  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 006:33:15
+MC = 006:33:15 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 006:36:28 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 006:36:28  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 006:41:03
+MC = 006:41:03 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 006:45:08 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 006:45:08  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 006:49:57
+MC = 006:49:57 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 006:52:26 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 006:52:26  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 006:58:34
+MC = 006:58:34 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 007:08:48 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 007:08:48  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 007:13:28
+MC = 007:13:28 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 007:28:21 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 007:28:21  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 007:35:14
+********************************************************************************************************************************************************************************************************************************
+MC = 007:29:58 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 007:29:58  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 007:34:26
+MC = 007:34:26 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 007:35:14 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 007:52:43 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 007:52:43  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 007:58:25
+********************************************************************************************************************************************************************************************************************************
+MC = 007:55:44 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 007:55:44  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 008:01:49
+MC = 007:58:25 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 008:01:49 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 008:06:53 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 008:06:53  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 008:13:37
+********************************************************************************************************************************************************************************************************************************
+MC = 008:08:50 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 008:08:50  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 008:13:35
+********************************************************************************************************************************************************************************************************************************
+MC = 008:11:28 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 008:11:28  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =3 Tiempo de fin de la toma de la muestra: 008:16:46
+MC = 008:13:35 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 008:13:37 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 008:16:46 Especialista= 3 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 008:34:53 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 008:34:53  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 008:39:52
+MC = 008:39:52 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 008:52:02 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 008:52:02  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 008:57:46
+MC = 008:57:46 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 009:21:00 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 009:21:00  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 009:27:01
+MC = 009:27:01 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 009:49:34 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 009:49:34  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 009:53:30
+********************************************************************************************************************************************************************************************************************************
+MC = 009:52:28 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 009:52:28  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 009:58:02
+MC = 009:53:30 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 009:58:02 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 010:00:25 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 010:00:25  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 010:02:57
+MC = 010:02:57 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 010:03:51 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 010:03:51  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 010:09:06
+MC = 010:09:06 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 010:15:47 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 010:15:47  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 010:20:14
+MC = 010:20:14 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 010:20:23 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 010:20:23  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 010:25:15
+********************************************************************************************************************************************************************************************************************************
+MC = 010:24:18 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 010:24:18  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 010:29:18
+MC = 010:25:15 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 010:29:18 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 010:31:01 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 010:31:01  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 010:34:08
+MC = 010:34:08 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 010:34:13 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 010:34:13  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 010:41:41
+MC = 010:41:41 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 011:03:48 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 011:03:48  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 011:08:44
+MC = 011:08:44 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 011:10:25 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 011:10:25  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 011:15:30
+MC = 011:15:30 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 011:21:29 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 011:21:29  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 011:26:16
+MC = 011:26:16 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 011:35:59 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 011:35:59  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 011:41:43
+********************************************************************************************************************************************************************************************************************************
+MC = 011:41:26 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 011:41:26  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 011:44:36
+MC = 011:41:43 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 011:44:36 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 011:50:34 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 011:50:34  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 011:56:48
+********************************************************************************************************************************************************************************************************************************
+MC = 011:52:38 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 011:52:38  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 011:57:07
+MC = 011:56:48 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 011:57:07 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 011:58:32 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 011:58:32  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 012:04:19
+MC = 012:04:19 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 012:11:02 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 012:11:02  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 012:17:53
+********************************************************************************************************************************************************************************************************************************
+MC = 012:15:52 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 012:15:52  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 012:22:35
+MC = 012:17:53 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 012:22:35 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 012:26:09 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 012:26:09  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 012:30:32
+MC = 012:30:32 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 012:54:29 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 012:54:29  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 013:00:13
+MC = 013:00:13 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 013:06:04 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 013:06:04  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 013:11:47
+MC = 013:11:47 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 013:13:15 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 013:13:15  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 013:19:06
+********************************************************************************************************************************************************************************************************************************
+MC = 013:16:27 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 013:16:27  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 013:22:25
+********************************************************************************************************************************************************************************************************************************
+MC = 013:18:20 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 013:18:20  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =3 Tiempo de fin de la toma de la muestra: 013:24:23
+MC = 013:19:06 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 013:22:25 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 013:24:23 Especialista= 3 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 013:29:44 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 013:29:44  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 013:36:13
+MC = 013:36:13 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 013:37:05 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 013:37:05  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 013:40:27
+MC = 013:40:27 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 013:48:14 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 013:48:14  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 013:53:53
+MC = 013:53:53 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 014:02:18 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 014:02:18  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 014:07:36
+MC = 014:07:36 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 014:08:14 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 014:08:14  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 014:12:23
+********************************************************************************************************************************************************************************************************************************
+MC = 014:10:38 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 014:10:38  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 014:15:46
+********************************************************************************************************************************************************************************************************************************
+MC = 014:11:49 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 014:11:49  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =3 Tiempo de fin de la toma de la muestra: 014:14:35
+MC = 014:12:23 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 014:14:35 Especialista= 3 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 014:15:46 Especialista= 2 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 014:18:07 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 014:18:07  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 014:23:00
+MC = 014:23:00 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************************
+MC = 014:23:35 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 014:23:35  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =1 Tiempo de fin de la toma de la muestra: 014:28:58
+********************************************************************************************************************************************************************************************************************************
+MC = 014:24:39 Ha llegado un nuevo Paciente a la cola del laboratorio
+MC = 014:24:39  El paciente ha salido de la cola y ha empezado a ser atendido por el especialista del laboratorio =2 Tiempo de fin de la toma de la muestra: 014:29:45
+MC = 014:28:58 Especialista= 1 Ha terminado la extracion de sangre .
+********************************************************************************************************************************************************************************************************************************
+MC = 014:29:45 Especialista= 2 Ha terminado la extracion de sangre .
 ********************************************************************************************************************************************************************************************************************************
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
                                                         PACIENTES ATENDIDOS EN EL LABORATORIO CLINICO DURANTE LA SIMULACION                                             
-                                                                                10                                                                                
+                                                                                93                                                                                
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------

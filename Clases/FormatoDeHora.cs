@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace LaboratorioIsssSimulacion.Clases
 {
+    /*
+     Clase formato de hora:
+     esta clase permite dare formato automatico 
+     a las horas de la simulacion sin pasar el limite
+     estabalecido por visual estudio
+         */
     class FormatoDeHora
     {
         public static string obtenerHora(int segundos)

@@ -5,7 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using MathNet.Numerics;
 using System.IO;
-
+/*
+ * Clase encargada de la generacion
+ * de los datos aleatorios con sus 
+ * respectivas distribuciones.
+ */
 namespace LaboratorioIsssSimulacion.Clases
 {
     class GeneradorDatosAleatorios
